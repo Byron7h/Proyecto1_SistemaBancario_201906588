@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="24C5955C-90D5-C717-BDC2-063BDF97A7D9">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-17 00:49:44 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>tiene</nameOnSource>
+<nameOnTarget>pertenece</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0FB81A9B-6764-838A-D5A7-043E4C6F8467</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>796EA628-95A9-160B-396D-FCAF855F9F13</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
