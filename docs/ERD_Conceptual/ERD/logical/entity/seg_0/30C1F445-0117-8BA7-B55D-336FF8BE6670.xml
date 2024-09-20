@@ -14,4 +14,40 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_rol_empleado" id="0973B012-F2EC-244A-E2B9-F0B92FF89430">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:19:04 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rol_empleado" id="AE5AB9C0-B420-4FCD-943C-764808B29B0A">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:19:14 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="43963591-B3AC-CDFA-5CE1-FB0D0026D6DE" name="ROL_EMPLEADO PK">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:19:12 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0973B012-F2EC-244A-E2B9-F0B92FF89430</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

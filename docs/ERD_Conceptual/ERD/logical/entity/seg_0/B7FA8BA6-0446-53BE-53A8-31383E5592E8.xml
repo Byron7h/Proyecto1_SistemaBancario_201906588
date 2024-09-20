@@ -14,4 +14,40 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tipo_agencia" id="7A44DBD1-6135-010B-D09B-638E2BE90451">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:21:28 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_agencia" id="E0F55955-A2A3-8E46-7F06-A414838A6448">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:21:41 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="172C9B5D-C572-81ED-044F-439C122FB56D" name="TIPO_AGENCIA PK">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:21:38 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7A44DBD1-6135-010B-D09B-638E2BE90451</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

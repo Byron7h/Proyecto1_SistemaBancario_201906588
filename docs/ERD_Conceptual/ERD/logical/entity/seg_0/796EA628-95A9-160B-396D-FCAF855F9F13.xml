@@ -14,4 +14,104 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cliente" id="79D49156-6E14-F775-2554-1EBA3DE9F62C">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 00:57:34 UTC</createdTime>
+<generatorID>24C5955C-90D5-C717-BDC2-063BDF97A7D9</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<referedAttribute>AB6D0E67-26C0-4141-7555-DBF9ACCFAF50</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_estado_prestamo" id="C682FCA3-5852-121D-B834-7377AEF9C4A3">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:20:32 UTC</createdTime>
+<generatorID>222DF89F-5BF5-A4A7-A367-D41854434FE9</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<referedAttribute>FF0DABCE-46D8-B6EA-4B0F-48D5A6E6D6EA</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_prestamo" id="684F342C-081E-7A12-4AA0-215448161E96">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:28:18 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto" id="61B74431-078B-301B-9557-352D600D607C">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:28:33 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tasa_interes" id="65CFD1BC-8093-4329-1E7E-EB23E35951AC">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:29:00 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_desembolso" id="7C4DC30F-0CCB-C8A2-C6D3-5DD3694A6BBF">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:29:12 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_vencimiento" id="0A3CC6A4-67CE-7C23-9D7D-E5BD59C4EE33">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:29:36 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="saldo_pendiente" id="4208E830-508C-4754-3242-170E1C89F9B1">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:29:48 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="67FC851F-12D9-14AD-59C8-0D4E97B1E109" name="PRESTAMO PK">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:28:22 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>684F342C-081E-7A12-4AA0-215448161E96</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

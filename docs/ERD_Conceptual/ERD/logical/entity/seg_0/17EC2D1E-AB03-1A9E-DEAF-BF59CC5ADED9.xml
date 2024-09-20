@@ -14,4 +14,40 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_estado_prestamo" id="FF0DABCE-46D8-B6EA-4B0F-48D5A6E6D6EA">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:20:05 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado_prestamo" id="A203ADD1-CC50-DE76-B784-164E1877298D">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:20:15 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="302342CC-F2A3-2F89-A90F-52086B7DA11E" name="ESTADO_PRESTAMO PK">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:20:31 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FF0DABCE-46D8-B6EA-4B0F-48D5A6E6D6EA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

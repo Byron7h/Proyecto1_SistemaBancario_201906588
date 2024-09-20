@@ -14,4 +14,40 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tipo_transaccion" id="DB5380FD-E02A-8E5D-2DCC-F7062D089FE9">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:17:27 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_transaccion" id="C0536A81-D43B-1BC9-6B75-5827359681F6">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:17:56 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9F267C8B-865B-3ECA-C27C-D0614F375746" name="TIPO_TRANSACCION PK">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:17:29 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DB5380FD-E02A-8E5D-2DCC-F7062D089FE9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

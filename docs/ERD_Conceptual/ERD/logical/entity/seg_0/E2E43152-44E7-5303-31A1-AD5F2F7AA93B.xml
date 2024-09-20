@@ -14,4 +14,64 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_cuenta" id="E7D868BC-8C38-9945-B347-166CF8279315">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 00:52:27 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="583DC12B-26FE-9978-4337-933617B3406D">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 00:57:34 UTC</createdTime>
+<generatorID>D7C1C337-2064-5EB6-5808-A1C3A421B9A7</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<referedAttribute>AB6D0E67-26C0-4141-7555-DBF9ACCFAF50</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="saldo" id="1529519F-5DB9-5266-DFA2-88C15E00F6B7">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:10:02 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo_cuenta" id="A78E46EA-EEAD-6AD7-71F6-1695026E4E7A">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:13:09 UTC</createdTime>
+<generatorID>AD8D89DD-5983-EAA7-33F3-C39479378EC0</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<referedAttribute>42985A72-BD63-296A-E726-B15F656FC3C1</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="881888D9-6995-A29F-5004-FB4C16FBD0AE" name="CUENTA PK">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 00:52:56 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E7D868BC-8C38-9945-B347-166CF8279315</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

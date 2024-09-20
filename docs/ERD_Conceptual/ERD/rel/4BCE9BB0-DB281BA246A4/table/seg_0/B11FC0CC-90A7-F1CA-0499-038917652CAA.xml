@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B11FC0CC-90A7-F1CA-0499-038917652CAA" name="ESTADO_TARGETA_C">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>59F01214-5B44-C05B-EC1D-B0EFE0FEF2CC</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_estado_targeta_c" id="EA554D8A-09CA-829A-7008-0A801E7D2CE8">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>71B3E710-BCED-C9DF-15B1-AEAB43AB79CB</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_targeta_c" id="E0A84444-D95A-4E29-B88F-A4082D267766">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>CB04F93A-B80D-60ED-5F19-51F5C6FAC36D</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C0CFF8D8-2D3F-84B1-A715-D5938E533F76" name="ESTADO_TARGETA_C_PK">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>5740B164-DB3E-F109-E514-4E47C6CB8196</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA554D8A-09CA-829A-7008-0A801E7D2CE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

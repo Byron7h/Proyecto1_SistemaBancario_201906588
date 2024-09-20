@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9202FAB1-29F5-4434-55EF-35B8EC1D0380" name="CLIENTE">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>0FB81A9B-6764-838A-D5A7-043E4C6F8467</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cliente" id="30E4BBE5-C236-D7D0-AB69-9E2FD8CB261D">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>AB6D0E67-26C0-4141-7555-DBF9ACCFAF50</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="C91583B1-E51E-0FE2-E3AD-B84D958539D6">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>095C2F0C-60C1-7CDC-EA7D-72FCBE82C6D7</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="6E71560E-95D3-32E4-9FA7-09DED7FAA6FF">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>1CEBC058-990F-E222-551E-098E42C20E05</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="970E69A9-ACE7-18B0-1B37-9EFBA2F20D61">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>16E39939-0C97-EC6D-1163-CF6280E62E00</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E254F235-39F2-6766-4430-EAD6B59870D5" name="CLIENTE_PK">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>791CB4AC-D2FF-2927-4E80-79F3240A6979</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30E4BBE5-C236-D7D0-AB69-9E2FD8CB261D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

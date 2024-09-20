@@ -14,4 +14,40 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_estado_targeta_c" id="71B3E710-BCED-C9DF-15B1-AEAB43AB79CB">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:20:46 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado_targeta_c" id="CB04F93A-B80D-60ED-5F19-51F5C6FAC36D">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:21:03 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5740B164-DB3E-F109-E514-4E47C6CB8196" name="ESTADO_TARGETA_C PK">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:20:59 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>71B3E710-BCED-C9DF-15B1-AEAB43AB79CB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

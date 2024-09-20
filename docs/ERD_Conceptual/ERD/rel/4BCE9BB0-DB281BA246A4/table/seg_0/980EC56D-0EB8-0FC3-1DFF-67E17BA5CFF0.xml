@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="980EC56D-0EB8-0FC3-1DFF-67E17BA5CFF0" name="TRANSACCION">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>8D6F26FC-3DD2-574A-02F3-504224358D6E</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_transaccion" id="4901B804-B899-8B11-A4A2-F069F2C445B4">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>AF41900B-9ECB-CA15-AE22-CAD5355B4BBA</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto" id="D1FB9ED6-5F5F-A180-1B79-80413BA99F66">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>32C592E9-B097-EB96-DE9C-9AFD27AB8A98</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_TRANSACCION_id_tipo_transaccion" id="DA9D60F9-302E-7597-C950-530BF1BF95BB">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>1C360032-2557-03C5-FB74-249FBD82E444</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C8B0B1D-94CA-077C-1852-C2BA93370059" referredColumn="1D1764EA-7F92-BCD8-F7BF-BCBAFE870BC4"/>
+</associations>
+</Column>
+<Column name="AGENCIA_id_agencia" id="7E52B063-FD5F-6293-CB19-1BE5035D6748">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>E33EC192-47A6-8A8A-2AEA-F43832D94D91</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D039EF97-C89E-3F9F-267A-C040621B5C38" referredColumn="C136E884-93A9-8615-AD4E-3125540F2E3D"/>
+</associations>
+</Column>
+<Column name="hora" id="99D0978B-643B-3F38-3D83-0779ED37C07F">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>86BAF954-BCD0-B987-8DAF-F38819A73F35</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="C2A9C2AD-0785-B72F-13E3-4C338FB03BF1">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>AB41E5C1-9489-D1DC-2CAC-87E89A410C7D</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="5D821DD4-EC36-AE8E-3DEB-F6A4C7FF7FE7">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>A1CBD6A6-2434-C81C-C4F9-5A62F00205FF</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_cuenta_origen_" id="42D3C2D0-E3D0-8CA3-AA92-115268974798">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>A0CFA181-CDD4-84D6-B84A-654A1115AAD2</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUENTA_numero_cuenta" id="2218AD7F-8ACC-85DF-FDF8-8072AD191C5B">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>74A2FD6E-09CD-CAD7-E2AE-7597F31E1EA7</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CD44046-3431-4621-93C3-83E3D03657B4" referredColumn="75A30083-4EB9-F515-0877-2474B52E772C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D3570965-AA47-A186-8AF4-FA22112D9833" name="TRANSACCION_PK">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>011414FE-3820-6382-4E84-BB3D20209BAE</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4901B804-B899-8B11-A4A2-F069F2C445B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C368C93A-8218-F1EB-995F-C4B104CF92C2" name="TRANSACCION_TIPO_TRANSACCION_FK">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>18320222-8AC1-18DC-42A7-C860553CDFD2</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA9D60F9-302E-7597-C950-530BF1BF95BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E70925D3-3C23-5E58-8078-402B4CE5C185" name="TRANSACCION_AGENCIA_FK">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>0E50A899-C21C-F8EB-2E1A-CA89F99D81DF</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E52B063-FD5F-6293-CB19-1BE5035D6748"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07E956DB-5E5F-BB1B-C8B8-62FF82F9E5FF" name="TRANSACCION_CUENTA_FK">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>1EDE64CF-4996-76B9-FC4B-8AE88E3B15B6</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2218AD7F-8ACC-85DF-FDF8-8072AD191C5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

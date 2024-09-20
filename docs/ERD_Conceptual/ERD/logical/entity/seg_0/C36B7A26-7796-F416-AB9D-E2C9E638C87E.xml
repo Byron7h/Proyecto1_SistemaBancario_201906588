@@ -14,4 +14,124 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cliente" id="34C79371-7356-C794-6D83-B342C45389D3">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 00:57:34 UTC</createdTime>
+<generatorID>8B396426-EC0E-BEE7-72A2-68D18933B503</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<referedAttribute>AB6D0E67-26C0-4141-7555-DBF9ACCFAF50</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_estado_targeta_c" id="371DEBCE-946F-352A-CA3D-81B6457E5E69">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:21:02 UTC</createdTime>
+<generatorID>E9C73CF8-3216-10A3-5D79-6A75D39764E3</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<referedAttribute>71B3E710-BCED-C9DF-15B1-AEAB43AB79CB</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_targeta" id="C2E0EB60-04D6-7A8D-F0CA-51CD10A8B579">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:32:41 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_targeta" id="C3373A05-6915-E6BC-D526-95A6F288537B">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:32:57 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="limite_credito" id="3B64F96F-177F-68CA-9946-8F62339DA6D3">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:33:30 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="saldo_actual" id="FDCEDAF0-379B-B394-0944-FE30684FB730">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:34:18 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_emision" id="081E7E69-4BE8-3960-BD3E-4351E78A0818">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:34:38 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_expiracion" id="B649C4B2-0166-21D0-97CD-4E544C592C67">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:35:01 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_de_corte" id="030D8FE1-8529-EA17-79F5-99776D86B072">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:38:34 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dia_ciclo" id="E6F9ACDD-88C5-72E6-11DE-90C4AE41943A">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:38:44 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="725B6D1D-4F4E-C33D-07D7-32638DB2CA0C" name="TARGETA_CREDITO PK">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:35:54 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C2E0EB60-04D6-7A8D-F0CA-51CD10A8B579</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

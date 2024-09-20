@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6D751136-C66F-59B4-A209-18C96D4CF7DF" name="ROL_EMPLEADO">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>30C1F445-0117-8BA7-B55D-336FF8BE6670</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_rol_empleado" id="D667CB22-76A3-9674-C426-AF3546E31043">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>0973B012-F2EC-244A-E2B9-F0B92FF89430</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rol_empleado" id="AC4C7DB8-C88F-532C-9D20-B4380D3B5F9B">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>AE5AB9C0-B420-4FCD-943C-764808B29B0A</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="29695169-5D13-9EBD-9C34-CC6F26AB010D" name="ROL_EMPLEADO_PK">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>43963591-B3AC-CDFA-5CE1-FB0D0026D6DE</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D667CB22-76A3-9674-C426-AF3546E31043"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

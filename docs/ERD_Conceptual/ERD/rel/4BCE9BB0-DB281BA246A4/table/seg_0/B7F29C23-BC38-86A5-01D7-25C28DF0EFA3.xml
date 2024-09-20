@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7F29C23-BC38-86A5-01D7-25C28DF0EFA3" name="TARGETA_CREDITO">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>C36B7A26-7796-F416-AB9D-E2C9E638C87E</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CLIENTE_id_cliente" id="7F48EB63-DACE-9865-780C-C407B7480AA7">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>34C79371-7356-C794-6D83-B342C45389D3</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4221EFC-C1D7-24ED-E40C-E2CF9721C002" referredColumn="30E4BBE5-C236-D7D0-AB69-9E2FD8CB261D"/>
+</associations>
+</Column>
+<Column name="ESTADO_TARGETA_C_id_estado_targeta_c" id="2B7396DF-0E99-10A8-1F70-717119A52FD0">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>371DEBCE-946F-352A-CA3D-81B6457E5E69</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B34D3173-4CAA-4465-2F4E-C105821F7A2C" referredColumn="EA554D8A-09CA-829A-7008-0A801E7D2CE8"/>
+</associations>
+</Column>
+<Column name="id_targeta" id="D387A1E0-8C39-F271-8EE7-8C4EC09922BE">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>C2E0EB60-04D6-7A8D-F0CA-51CD10A8B579</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_targeta" id="CBC873E9-C394-8310-E3EC-EE0A31B2BE91">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>C3373A05-6915-E6BC-D526-95A6F288537B</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="limite_credito" id="E2BE7EDA-67CD-EAA6-8A07-136394B6E44D">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>3B64F96F-177F-68CA-9946-8F62339DA6D3</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="saldo_actual" id="003A3FB5-F166-9771-2828-8C23A6472EAA">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>FDCEDAF0-379B-B394-0944-FE30684FB730</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_emision" id="E184DF23-B1E6-296E-F24E-D4794E2A6B8C">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>081E7E69-4BE8-3960-BD3E-4351E78A0818</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_expiracion" id="9CB98AA1-3652-6207-79FF-091640796B35">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>B649C4B2-0166-21D0-97CD-4E544C592C67</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_de_corte" id="D962B0B7-0B6A-FB65-18F4-5D4E87AD75C9">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>030D8FE1-8529-EA17-79F5-99776D86B072</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dia_ciclo" id="FF563033-C6E4-0154-FA03-EBB3DEFF1B29">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>E6F9ACDD-88C5-72E6-11DE-90C4AE41943A</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="654492E6-9E25-5023-2C41-BD9D836E9968" name="TARGETA_CREDITO_PK">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>725B6D1D-4F4E-C33D-07D7-32638DB2CA0C</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D387A1E0-8C39-F271-8EE7-8C4EC09922BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FAF15FD6-CA82-CF9C-DF95-FE3B4E897B20" name="TARGETA_CREDITO_ESTADO_TARGETA_C_FK">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>E9C73CF8-3216-10A3-5D79-6A75D39764E3</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B7396DF-0E99-10A8-1F70-717119A52FD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2066864E-2F82-D9EB-6BAB-C24AACD1CB1A" name="TARGETA_CREDITO_CLIENTE_FK">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>8B396426-EC0E-BEE7-72A2-68D18933B503</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F48EB63-DACE-9865-780C-C407B7480AA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2040C6A3-F439-7E83-B6C4-00BF88491000" name="PRESTAMO">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>796EA628-95A9-160B-396D-FCAF855F9F13</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CLIENTE_id_cliente" id="D622410F-F9BE-8B6D-8412-B38A1338CBDB">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>79D49156-6E14-F775-2554-1EBA3DE9F62C</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="587D4A17-0BC9-5F8A-9C1A-0727141B7B62" referredColumn="30E4BBE5-C236-D7D0-AB69-9E2FD8CB261D"/>
+</associations>
+</Column>
+<Column name="ESTADO_PRESTAMO_id_estado_prestamo" id="018F2D8C-3DB9-A4F2-BCD7-A2098CE34FE2">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>C682FCA3-5852-121D-B834-7377AEF9C4A3</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1EEB660-18BE-8977-1FB1-73C051D13A2F" referredColumn="2E8C669B-1225-79C0-1C76-8DDF5C4A7E1F"/>
+</associations>
+</Column>
+<Column name="id_prestamo" id="AE099C81-025D-2522-B001-FCB0C47AC623">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>684F342C-081E-7A12-4AA0-215448161E96</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto" id="BBE32F18-3B70-BF09-2EFD-578148614500">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>61B74431-078B-301B-9557-352D600D607C</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tasa_interes" id="6F3CDC07-3E9B-BA6A-06C0-AD517AFC356A">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>65CFD1BC-8093-4329-1E7E-EB23E35951AC</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_desembolso" id="1F00A4B9-62AE-95F2-4EE1-F943B392F7EE">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>7C4DC30F-0CCB-C8A2-C6D3-5DD3694A6BBF</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_vencimiento" id="1CB548A0-C4D6-A963-A020-6D5FBA3E954E">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>0A3CC6A4-67CE-7C23-9D7D-E5BD59C4EE33</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="saldo_pendiente" id="847297D0-5E22-D788-796E-EF2D1C36330D">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>4208E830-508C-4754-3242-170E1C89F9B1</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C260EC8B-5CEE-F16F-FAE9-E77754A78FDC" name="PRESTAMO_PK">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>67FC851F-12D9-14AD-59C8-0D4E97B1E109</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE099C81-025D-2522-B001-FCB0C47AC623"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C357DADE-3C33-B54C-660C-A5ECDE8165DB" name="PRESTAMO_ESTADO_PRESTAMO_FK">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>222DF89F-5BF5-A4A7-A367-D41854434FE9</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="018F2D8C-3DB9-A4F2-BCD7-A2098CE34FE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3058CCA7-C7FC-6D4A-92BA-3A04898046CB" name="PRESTAMO_CLIENTE_FK">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>24C5955C-90D5-C717-BDC2-063BDF97A7D9</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D622410F-F9BE-8B6D-8412-B38A1338CBDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
