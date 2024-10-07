@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_28" directorySegmentName="seg_0" id="BCDA3C6D-BC31-C456-02C6-B25FBA8B52AD">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-30 16:46:01 UTC</createdTime>
+<ownerDesignName>sistema_bancario</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<sourcePk>881888D9-6995-A29F-5004-FB4C16FBD0AE</sourcePk>
+<targetPk>93222F5C-CF2E-548B-7B34-988DB6CDC48E</targetPk>
+<identifying>false</identifying>
+<nameOnSource>tiene un</nameOnSource>
+<nameOnTarget>describe a</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>E2E43152-44E7-5303-31A1-AD5F2F7AA93B</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>7B86E0B0-5797-3818-23CA-B4D2C7721A68</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

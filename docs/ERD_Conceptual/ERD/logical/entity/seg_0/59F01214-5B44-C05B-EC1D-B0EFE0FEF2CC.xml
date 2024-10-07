@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="59F01214-5B44-C05B-EC1D-B0EFE0FEF2CC" name="ESTADO_TARGETA_C">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="59F01214-5B44-C05B-EC1D-B0EFE0FEF2CC" name="ESTADOS_DE_TARGETA">
 <createdBy>solis</createdBy>
 <createdTime>2024-09-17 00:43:48 UTC</createdTime>
 <ownerDesignName>ERD</ownerDesignName>
@@ -22,7 +22,9 @@
 <engineerTo>
 <item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="estado_targeta_c" id="CB04F93A-B80D-60ED-5F19-51F5C6FAC36D">
@@ -32,8 +34,11 @@
 <engineerTo>
 <item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -41,8 +46,9 @@
 <createdBy>solis</createdBy>
 <createdTime>2024-09-20 01:20:59 UTC</createdTime>
 <ownerDesignName>ERD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

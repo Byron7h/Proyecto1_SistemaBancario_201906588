@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B34D3173-4CAA-4465-2F4E-C105821F7A2C" containerWithKeyObject="B7F29C23-BC38-86A5-01D7-25C28DF0EFA3" localFKIndex="FAF15FD6-CA82-CF9C-DF95-FE3B4E897B20" name="TARJETAS_DE_CREDITO_ESTADOS_DE_TARGETA_FK">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>E9C73CF8-3216-10A3-5D79-6A75D39764E3</generatorID>
+<ownerDesignName>sistema_bancario</ownerDesignName>
+<referredTableLongName>ESTADOS_DE_TARGETA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B11FC0CC-90A7-F1CA-0499-038917652CAA</referredTableID>
+<keyObject>C0CFF8D8-2D3F-84B1-A715-D5938E533F76</keyObject>
+<referredKeyID>C0CFF8D8-2D3F-84B1-A715-D5938E533F76</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_estado_targeta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

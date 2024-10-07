@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C36B7A26-7796-F416-AB9D-E2C9E638C87E" name="TARGETA_CREDITO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C36B7A26-7796-F416-AB9D-E2C9E638C87E" name="TARJETAS_DE_CREDITO">
 <createdBy>solis</createdBy>
 <createdTime>2024-09-17 00:32:22 UTC</createdTime>
 <ownerDesignName>ERD</ownerDesignName>
@@ -24,7 +24,9 @@
 <item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
 </engineerTo>
 <referedAttribute>AB6D0E67-26C0-4141-7555-DBF9ACCFAF50</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_estado_targeta_c" id="371DEBCE-946F-352A-CA3D-81B6457E5E69">
@@ -36,7 +38,9 @@
 <item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
 </engineerTo>
 <referedAttribute>71B3E710-BCED-C9DF-15B1-AEAB43AB79CB</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_targeta" id="C2E0EB60-04D6-7A8D-F0CA-51CD10A8B579">
@@ -46,7 +50,9 @@
 <engineerTo>
 <item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="numero_targeta" id="C3373A05-6915-E6BC-D526-95A6F288537B">
@@ -56,8 +62,11 @@
 <engineerTo>
 <item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="limite_credito" id="3B64F96F-177F-68CA-9946-8F62339DA6D3">
 <createdBy>solis</createdBy>
@@ -66,8 +75,12 @@
 <engineerTo>
 <item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="saldo_actual" id="FDCEDAF0-379B-B394-0944-FE30684FB730">
 <createdBy>solis</createdBy>
@@ -76,8 +89,12 @@
 <engineerTo>
 <item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="fecha_emision" id="081E7E69-4BE8-3960-BD3E-4351E78A0818">
 <createdBy>solis</createdBy>
@@ -86,7 +103,9 @@
 <engineerTo>
 <item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="fecha_expiracion" id="B649C4B2-0166-21D0-97CD-4E544C592C67">
@@ -96,7 +115,9 @@
 <engineerTo>
 <item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="fecha_de_corte" id="030D8FE1-8529-EA17-79F5-99776D86B072">
@@ -106,7 +127,9 @@
 <engineerTo>
 <item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="dia_ciclo" id="E6F9ACDD-88C5-72E6-11DE-90C4AE41943A">
@@ -116,8 +139,11 @@
 <engineerTo>
 <item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -125,8 +151,9 @@
 <createdBy>solis</createdBy>
 <createdTime>2024-09-20 01:35:54 UTC</createdTime>
 <ownerDesignName>ERD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

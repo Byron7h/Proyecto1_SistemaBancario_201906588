@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BDC09CA0-27B1-AA33-D6E8-4C5650AE6B18" containerWithKeyObject="0D02CDA6-E058-DD7E-FF1B-E302922D6487" localFKIndex="5ABBBBC3-7A5B-A2D2-3C13-1F13734A6F78" name="TRANSACCIONES_TIPOS_DE_TRANSACCION_FK">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-24 23:46:29 UTC</createdTime>
+<generatorID>DBB5D1AC-FE6B-2A28-9EE6-5F20629E63CF</generatorID>
+<ownerDesignName>sistema_bancario</ownerDesignName>
+<referredTableLongName>TIPOS_DE_TRANSACCION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>86022F7E-0F8D-49BE-E1C7-BC00FC811B56</referredTableID>
+<keyObject>BAFEEE41-EADA-2F3E-C105-E6B0128D494D</keyObject>
+<referredKeyID>BAFEEE41-EADA-2F3E-C105-E6B0128D494D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tipo_transaccion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

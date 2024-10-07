@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B59336F7-9CAE-BD94-A133-1C9BCDE0D192" name="MUNICIPIO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B59336F7-9CAE-BD94-A133-1C9BCDE0D192" name="MUNICIPIOS">
 <createdBy>solis</createdBy>
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>8FA50029-1142-BCB3-8F58-58F5DED4A87F</generatorID>
@@ -8,12 +8,14 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="DEPARTAMENTO_id_departamento" id="804D9598-8A6B-BA2C-6C75-D1F79B12230C">
+<Column name="DEPARTAMENTOS_id_departamento" id="804D9598-8A6B-BA2C-6C75-D1F79B12230C">
 <createdBy>solis</createdBy>
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>3186049A-35B0-F40C-DD98-B347BD667A19</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -26,7 +28,9 @@
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>8FA1B684-0BF8-AA66-3FEA-690FDA534CB7</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -35,8 +39,11 @@
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>B2A7C939-79DA-53E6-79A6-4615370F8DDF</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -53,7 +60,7 @@
 <colUsage columnID="A271654A-F941-8227-3B82-E2AE3BD99B46"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4FEBDDAD-830A-7A77-3221-2B66F208F16F" name="MUNICIPIO_DEPARTAMENTO_FK">
+<ind_PK_UK id="4FEBDDAD-830A-7A77-3221-2B66F208F16F" name="MUNICIPIOS_DEPARTAMENTOS_FK">
 <createdBy>solis</createdBy>
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>5097B4BF-4BCA-B410-3DCF-690A4995EF47</generatorID>

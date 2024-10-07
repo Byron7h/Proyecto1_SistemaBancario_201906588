@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="86627674-3B55-675A-CEA8-7B33CA24B272" name="TIPO_AGENCIA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="86627674-3B55-675A-CEA8-7B33CA24B272" name="TIPOS_DE_AGENCIA">
 <createdBy>solis</createdBy>
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>B7FA8BA6-0446-53BE-53A8-31383E5592E8</generatorID>
@@ -13,7 +13,9 @@
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>7A44DBD1-6135-010B-D09B-638E2BE90451</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -22,8 +24,11 @@
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>E0F55955-A2A3-8E46-7F06-A414838A6448</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

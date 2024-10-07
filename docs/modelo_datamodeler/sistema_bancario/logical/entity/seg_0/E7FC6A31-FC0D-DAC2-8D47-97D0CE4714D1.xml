@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E7FC6A31-FC0D-DAC2-8D47-97D0CE4714D1" name="AGENCIAS">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-17 00:44:34 UTC</createdTime>
+<ownerDesignName>sistema_bancario</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tipo_agencia" id="EEFF43E4-91C2-0012-6E79-84512AE3A112">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:21:46 UTC</createdTime>
+<generatorID>91E20627-B034-F2E6-6FFE-855133D1DF2F</generatorID>
+<ownerDesignName>sistema_bancario</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<referedAttribute>7A44DBD1-6135-010B-D09B-638E2BE90451</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_municipio" id="BF6F1A3B-8E99-E196-A001-21F33E9C8537">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:41:15 UTC</createdTime>
+<generatorID>51438D27-C51C-AC11-4B5E-6C12121A4B97</generatorID>
+<ownerDesignName>sistema_bancario</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<referedAttribute>8FA1B684-0BF8-AA66-3FEA-690FDA534CB7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_agencia" id="9AE5BA36-5614-3C9A-A83E-F13B5AF3DC97">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:45:10 UTC</createdTime>
+<ownerDesignName>sistema_bancario</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="2216ED95-D29C-115A-1A19-DAA4BD34DA37">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:45:19 UTC</createdTime>
+<ownerDesignName>sistema_bancario</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="7D8E05AC-D780-5511-089F-5617EBEEA1D7">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:45:37 UTC</createdTime>
+<ownerDesignName>sistema_bancario</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_postal" id="271ACF21-1589-FFC4-05F1-0517AB97AEE2">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:45:52 UTC</createdTime>
+<ownerDesignName>sistema_bancario</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="A7C5A413-6C46-7805-9078-1607EBBA1854">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:46:02 UTC</createdTime>
+<ownerDesignName>sistema_bancario</ownerDesignName>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A2ABAD62-F944-08EE-D3CD-DFFC231628B1" name="AGENCIA PK">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 01:45:07 UTC</createdTime>
+<ownerDesignName>sistema_bancario</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9AE5BA36-5614-3C9A-A83E-F13B5AF3DC97</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

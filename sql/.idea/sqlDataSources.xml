@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="9421c554-5e98-4e4e-a220-adfebe1504cd" name="sistema_bancario Mapping">
+      <data-sources db="b7475b6f-6cc5-4cde-af45-bab6358dafeb" />
+      <scope>
+        <node kind="database" negative="1" />
+      </scope>
+    </mapping>
+    <mapping uuid="548e412b-4d1b-46a8-8575-b5ba52111878" name="@localhost Mapping">
+      <data-sources db="94e0b3f7-4dcd-4991-891a-97efe7120a99" />
+    </mapping>
+  </component>
+</project>

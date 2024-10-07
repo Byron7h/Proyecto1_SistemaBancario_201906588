@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E2E43152-44E7-5303-31A1-AD5F2F7AA93B" name="CUENTA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E2E43152-44E7-5303-31A1-AD5F2F7AA93B" name="CUENTAS">
 <createdBy>solis</createdBy>
 <createdTime>2024-09-17 00:33:01 UTC</createdTime>
 <ownerDesignName>ERD</ownerDesignName>
@@ -22,8 +22,11 @@
 <engineerTo>
 <item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<ownDataTypeParameters>18,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_cliente" id="583DC12B-26FE-9978-4337-933617B3406D">
 <createdBy>solis</createdBy>
@@ -34,7 +37,9 @@
 <item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
 </engineerTo>
 <referedAttribute>AB6D0E67-26C0-4141-7555-DBF9ACCFAF50</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="saldo" id="1529519F-5DB9-5266-DFA2-88C15E00F6B7">
@@ -44,19 +49,25 @@
 <engineerTo>
 <item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_tipo_cuenta" id="A78E46EA-EEAD-6AD7-71F6-1695026E4E7A">
+<Attribute name="id_tipo_cuenta" id="0B9A3AF7-010F-B0A9-908F-5E2232CE27FC">
 <createdBy>solis</createdBy>
-<createdTime>2024-09-20 01:13:09 UTC</createdTime>
-<generatorID>AD8D89DD-5983-EAA7-33F3-C39479378EC0</generatorID>
+<createdTime>2024-09-30 16:46:28 UTC</createdTime>
+<generatorID>BCDA3C6D-BC31-C456-02C6-B25FBA8B52AD</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
 <engineerTo>
 <item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
 </engineerTo>
 <referedAttribute>42985A72-BD63-296A-E726-B15F656FC3C1</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -65,8 +76,9 @@
 <createdBy>solis</createdBy>
 <createdTime>2024-09-20 00:52:56 UTC</createdTime>
 <ownerDesignName>ERD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="903C5AFC-5E1B-CBDD-9673-84205542A95F" containerWithKeyObject="0D02CDA6-E058-DD7E-FF1B-E302922D6487" localFKIndex="FB0B63EA-7C9E-367D-A19A-46941101E96A" name="TRANSACCIONES_AGENCIAS_FK">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-24 23:46:29 UTC</createdTime>
+<generatorID>B7AB39AE-62A5-30B2-4FD6-DF26F30D8F92</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<referredTableLongName>AGENCIAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>357DCE61-9A22-3571-6D13-2C942D271E41</referredTableID>
+<keyObject>250084A0-1E7A-8250-6968-1C56549B1BCE</keyObject>
+<referredKeyID>250084A0-1E7A-8250-6968-1C56549B1BCE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_agencia</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

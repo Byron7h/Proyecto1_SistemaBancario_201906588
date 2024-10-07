@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A1B523FB-CC47-C278-53C0-FFBFC1372155" name="EMPLEADO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A1B523FB-CC47-C278-53C0-FFBFC1372155" name="EMPLEADOS">
 <createdBy>solis</createdBy>
 <createdTime>2024-09-17 00:45:04 UTC</createdTime>
 <ownerDesignName>ERD</ownerDesignName>
@@ -24,7 +24,9 @@
 <item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
 </engineerTo>
 <referedAttribute>0973B012-F2EC-244A-E2B9-F0B92FF89430</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_departamento" id="6F3B7156-3207-72FC-BFEC-4DBAA545B212">
@@ -36,7 +38,9 @@
 <item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
 </engineerTo>
 <referedAttribute>0E829718-9D3F-A2AC-AE94-E3DA9D50FE75</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_empleado" id="711789DB-CF4A-92DB-885D-020D103C2E09">
@@ -46,7 +50,9 @@
 <engineerTo>
 <item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre" id="52B6F165-1998-90B0-E6F0-FF647BC054AB">
@@ -56,8 +62,11 @@
 <engineerTo>
 <item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="apellido" id="0F3BC92F-156E-D862-E3A9-EB7763D72C50">
 <createdBy>solis</createdBy>
@@ -66,8 +75,11 @@
 <engineerTo>
 <item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="telefono" id="61256AE2-CA28-F731-4201-E0A7AD9BD081">
 <createdBy>solis</createdBy>
@@ -76,8 +88,11 @@
 <engineerTo>
 <item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Attribute_3" id="62FDC5C0-4DF7-CB8F-77C6-FCA51F3D8784">
 <createdBy>solis</createdBy>
@@ -100,7 +115,9 @@
 <item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
 </engineerTo>
 <referedAttribute>9AE5BA36-5614-3C9A-A83E-F13B5AF3DC97</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -109,8 +126,9 @@
 <createdBy>solis</createdBy>
 <createdTime>2024-09-20 01:42:54 UTC</createdTime>
 <ownerDesignName>ERD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

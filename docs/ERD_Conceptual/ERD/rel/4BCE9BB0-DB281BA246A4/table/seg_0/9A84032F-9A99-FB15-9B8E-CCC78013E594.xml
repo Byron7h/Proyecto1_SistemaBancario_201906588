@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A84032F-9A99-FB15-9B8E-CCC78013E594" name="CUENTA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A84032F-9A99-FB15-9B8E-CCC78013E594" name="CUENTAS">
 <createdBy>solis</createdBy>
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>E2E43152-44E7-5303-31A1-AD5F2F7AA93B</generatorID>
@@ -13,16 +13,21 @@
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>E7D868BC-8C38-9945-B347-166CF8279315</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<ownDataTypeParameters>18,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CLIENTE_id_cliente" id="7650A47B-EC48-623A-61FC-2FFA0772F2C7">
+<Column name="CLIENTES_id_cliente" id="7650A47B-EC48-623A-61FC-2FFA0772F2C7">
 <createdBy>solis</createdBy>
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>583DC12B-26FE-9978-4337-933617B3406D</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -35,8 +40,12 @@
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>1529519F-5DB9-5266-DFA2-88C15E00F6B7</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="TIPO_CUENTA_id_tipo_cuenta" id="BCDEAC4D-3378-F663-5206-52543256EDA2">
@@ -44,7 +53,9 @@
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>A78E46EA-EEAD-6AD7-71F6-1695026E4E7A</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -66,7 +77,7 @@
 <colUsage columnID="75A30083-4EB9-F515-0877-2474B52E772C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5E36672E-A0F1-AB27-7713-8DA7A964299D" name="CUENTA_CLIENTE_FK">
+<ind_PK_UK id="5E36672E-A0F1-AB27-7713-8DA7A964299D" name="CUENTAS_CLIENTES_FK">
 <createdBy>solis</createdBy>
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>D7C1C337-2064-5EB6-5808-A1C3A421B9A7</generatorID>
@@ -77,7 +88,7 @@
 <colUsage columnID="7650A47B-EC48-623A-61FC-2FFA0772F2C7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="9C7D76F7-9C4E-6DA2-BE78-B4B9F1B0536B" name="CUENTA_TIPO_CUENTA_FK">
+<ind_PK_UK id="9C7D76F7-9C4E-6DA2-BE78-B4B9F1B0536B" name="CUENTAS_TIPOS_DE_CUENTA_FK">
 <createdBy>solis</createdBy>
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>AD8D89DD-5983-EAA7-33F3-C39479378EC0</generatorID>

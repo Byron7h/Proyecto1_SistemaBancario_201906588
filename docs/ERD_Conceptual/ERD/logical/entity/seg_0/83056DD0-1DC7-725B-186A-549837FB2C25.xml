@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="83056DD0-1DC7-725B-186A-549837FB2C25" name="TRANSACCION">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="83056DD0-1DC7-725B-186A-549837FB2C25" name="TRANSACCIONES">
 <createdBy>solis</createdBy>
 <createdTime>2024-09-20 11:19:52 UTC</createdTime>
 <ownerDesignName>ERD</ownerDesignName>
@@ -24,19 +24,24 @@
 <item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
 </engineerTo>
 <referedAttribute>DB5380FD-E02A-8E5D-2DCC-F7062D089FE9</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="numero_cuenta_origen" id="39D69AC4-DB41-D421-875C-63D05653D313">
+<Attribute name="numero_cuenta_origen" id="1DEE2AF6-1CA8-306F-D3E8-8B7783227B81">
 <createdBy>solis</createdBy>
-<createdTime>2024-09-20 11:23:16 UTC</createdTime>
-<generatorID>69FE8D41-EA94-7F52-F3C2-5886E63785A4</generatorID>
+<createdTime>2024-09-24 23:53:19 UTC</createdTime>
+<generatorID>E484CFC4-23C5-F85C-8CC0-3CDDB07A52C4</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
 <engineerTo>
 <item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
 </engineerTo>
 <referedAttribute>E7D868BC-8C38-9945-B347-166CF8279315</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="numero_cuenta_destino" id="A2960F30-A695-742E-0F2E-3906C3F9FB2D">
@@ -48,7 +53,10 @@
 <item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
 </engineerTo>
 <referedAttribute>E7D868BC-8C38-9945-B347-166CF8279315</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_agencia" id="B429B76E-3472-3BD3-B9ED-D00860F6C87A">
@@ -60,7 +68,9 @@
 <item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
 </engineerTo>
 <referedAttribute>9AE5BA36-5614-3C9A-A83E-F13B5AF3DC97</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_transaccion" id="8FB97C04-D281-9F65-A2CF-701DC1509262">
@@ -70,7 +80,9 @@
 <engineerTo>
 <item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="monto" id="373426FD-FC77-86AE-EC6A-7D8454778E11">
@@ -80,28 +92,25 @@
 <engineerTo>
 <item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="hora" id="E30F6D81-5804-A3D8-3D60-8D134307ADD5">
+<Attribute name="fecha_hora" id="E30F6D81-5804-A3D8-3D60-8D134307ADD5">
 <createdBy>solis</createdBy>
 <createdTime>2024-09-20 11:41:08 UTC</createdTime>
 <ownerDesignName>ERD</ownerDesignName>
 <engineerTo>
 <item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="fecha" id="B3D63BAF-0E2B-CC7C-4E24-A688C4009722">
-<createdBy>solis</createdBy>
-<createdTime>2024-09-20 11:40:34 UTC</createdTime>
-<ownerDesignName>ERD</ownerDesignName>
-<engineerTo>
-<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="descripcion" id="D9920386-1B97-2779-9B20-AF8E5D43581C">
 <createdBy>solis</createdBy>
@@ -110,8 +119,11 @@
 <engineerTo>
 <item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -119,8 +131,9 @@
 <createdBy>solis</createdBy>
 <createdTime>2024-09-20 11:40:23 UTC</createdTime>
 <ownerDesignName>ERD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="true"/>
+<item key="4BCE9BB0-48A4-04E6-0ADB-DB281BA246A4" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

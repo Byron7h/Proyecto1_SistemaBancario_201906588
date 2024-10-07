@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E1EEB660-18BE-8977-1FB1-73C051D13A2F" containerWithKeyObject="2040C6A3-F439-7E83-B6C4-00BF88491000" localFKIndex="C357DADE-3C33-B54C-660C-A5ECDE8165DB" name="PRESTAMO_ESTADO_PRESTAMO_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E1EEB660-18BE-8977-1FB1-73C051D13A2F" containerWithKeyObject="2040C6A3-F439-7E83-B6C4-00BF88491000" localFKIndex="C357DADE-3C33-B54C-660C-A5ECDE8165DB" name="PRESTAMOS_ESTADOS_DE_PRESTAMO_FK">
 <createdBy>solis</createdBy>
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>222DF89F-5BF5-A4A7-A367-D41854434FE9</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
-<referredTableLongName>ESTADO_PRESTAMO</referredTableLongName>
+<referredTableLongName>ESTADOS_DE_PRESTAMO</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>125AF5C1-42A8-482C-4C86-809E645E80A7</referredTableID>
 <keyObject>2640E544-3696-ED05-0A6B-67360691889E</keyObject>

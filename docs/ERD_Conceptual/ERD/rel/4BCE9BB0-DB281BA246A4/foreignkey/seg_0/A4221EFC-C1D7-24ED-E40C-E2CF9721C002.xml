@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A4221EFC-C1D7-24ED-E40C-E2CF9721C002" containerWithKeyObject="B7F29C23-BC38-86A5-01D7-25C28DF0EFA3" localFKIndex="2066864E-2F82-D9EB-6BAB-C24AACD1CB1A" name="TARGETA_CREDITO_CLIENTE_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A4221EFC-C1D7-24ED-E40C-E2CF9721C002" containerWithKeyObject="B7F29C23-BC38-86A5-01D7-25C28DF0EFA3" localFKIndex="2066864E-2F82-D9EB-6BAB-C24AACD1CB1A" name="TARJETAS_DE_CREDITO_CLIENTES_FK">
 <createdBy>solis</createdBy>
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>8B396426-EC0E-BEE7-72A2-68D18933B503</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
-<referredTableLongName>CLIENTE</referredTableLongName>
+<referredTableLongName>CLIENTES</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>9202FAB1-29F5-4434-55EF-35B8EC1D0380</referredTableID>
 <keyObject>E254F235-39F2-6766-4430-EAD6B59870D5</keyObject>

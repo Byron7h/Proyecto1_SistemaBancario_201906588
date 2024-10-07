@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3DA5E4EB-CB59-3EF5-D493-38A0BB21353B" containerWithKeyObject="B59336F7-9CAE-BD94-A133-1C9BCDE0D192" localFKIndex="4FEBDDAD-830A-7A77-3221-2B66F208F16F" name="MUNICIPIOS_DEPARTAMENTOS_FK">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-20 11:16:45 UTC</createdTime>
+<generatorID>5097B4BF-4BCA-B410-3DCF-690A4995EF47</generatorID>
+<ownerDesignName>sistema_bancario</ownerDesignName>
+<referredTableLongName>DEPARTAMENTOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B26DB095-4FF3-6702-74C0-94FE7B7C33AF</referredTableID>
+<keyObject>13837468-B5FD-7DD5-7DF0-3274CDF12A2C</keyObject>
+<referredKeyID>13837468-B5FD-7DD5-7DF0-3274CDF12A2C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_departamento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

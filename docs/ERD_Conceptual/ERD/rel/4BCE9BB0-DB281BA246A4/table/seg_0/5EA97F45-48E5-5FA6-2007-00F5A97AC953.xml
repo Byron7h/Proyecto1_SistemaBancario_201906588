@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5EA97F45-48E5-5FA6-2007-00F5A97AC953" name="EMPLEADO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5EA97F45-48E5-5FA6-2007-00F5A97AC953" name="EMPLEADOS">
 <createdBy>solis</createdBy>
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>A1B523FB-CC47-C278-53C0-FFBFC1372155</generatorID>
@@ -8,12 +8,14 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ROL_EMPLEADO_id_rol_empleado" id="55BFC88E-8121-A781-EC7A-AF3CEBEA6600">
+<Column name="ROLES_DE_EMPLEADO_id_rol_empleado" id="55BFC88E-8121-A781-EC7A-AF3CEBEA6600">
 <createdBy>solis</createdBy>
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>864F0B20-64E2-BB68-7F58-EC44D54B4948</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -21,12 +23,14 @@
 <colAssociation fkAssociation="B2BAC77D-D5D4-8043-0CE3-6CA59795E4DB" referredColumn="D667CB22-76A3-9674-C426-AF3546E31043"/>
 </associations>
 </Column>
-<Column name="DEPARTAMENTO_id_departamento" id="D861CB12-1C7D-BF98-A59A-407041D38D9B">
+<Column name="DEPARTAMENTOS_id_departamento" id="D861CB12-1C7D-BF98-A59A-407041D38D9B">
 <createdBy>solis</createdBy>
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>6F3B7156-3207-72FC-BFEC-4DBAA545B212</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -39,7 +43,9 @@
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>711789DB-CF4A-92DB-885D-020D103C2E09</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -48,8 +54,11 @@
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>52B6F165-1998-90B0-E6F0-FF647BC054AB</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="apellido" id="5FBDCFE8-C1E9-F82B-2D3A-A40B741BB721">
@@ -57,8 +66,11 @@
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>0F3BC92F-156E-D862-E3A9-EB7763D72C50</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="telefono" id="AB31EFDC-1FF0-9C54-DA15-AC1C14822665">
@@ -66,26 +78,21 @@
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>61256AE2-CA28-F731-4201-E0A7AD9BD081</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Attribute_3" id="82ACBFDF-3706-C878-125A-A0D46A1CCB22">
-<createdBy>solis</createdBy>
-<createdTime>2024-09-20 11:16:45 UTC</createdTime>
-<generatorID>62FDC5C0-4DF7-CB8F-77C6-FCA51F3D8784</generatorID>
-<ownerDesignName>ERD</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="AGENCIA_id_agencia" id="78731AC5-5F6B-1A1F-76FB-6E2778E3BAF6">
+<Column name="AGENCIAS_id_agencia" id="78731AC5-5F6B-1A1F-76FB-6E2778E3BAF6">
 <createdBy>solis</createdBy>
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>74E9C9C0-9D61-724B-90FF-9A9DDDADE0AC</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -107,7 +114,7 @@
 <colUsage columnID="C931E88B-CB8D-A30C-4C38-CD4E95040FD7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="76BB30E2-F134-0D90-D0F6-3FA3C2963EED" name="EMPLEADO_AGENCIA_FK">
+<ind_PK_UK id="76BB30E2-F134-0D90-D0F6-3FA3C2963EED" name="EMPLEADOS_AGENCIAS_FK">
 <createdBy>solis</createdBy>
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>89344A4D-18D6-26EA-1B3B-BB25F084EB30</generatorID>
@@ -118,7 +125,7 @@
 <colUsage columnID="78731AC5-5F6B-1A1F-76FB-6E2778E3BAF6"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5017FE22-9351-E670-99EE-3AC7C7FD2BB1" name="EMPLEADO_DEPARTAMENTO_FK">
+<ind_PK_UK id="5017FE22-9351-E670-99EE-3AC7C7FD2BB1" name="EMPLEADOS_DEPARTAMENTOS_FK">
 <createdBy>solis</createdBy>
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>F4E5E451-F8C4-1360-67BE-7C911000717C</generatorID>
@@ -129,7 +136,7 @@
 <colUsage columnID="D861CB12-1C7D-BF98-A59A-407041D38D9B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D37EEE22-78BB-240F-C424-FACC3A630AA6" name="EMPLEADO_ROL_EMPLEADO_FK">
+<ind_PK_UK id="D37EEE22-78BB-240F-C424-FACC3A630AA6" name="EMPLEADOS_ROLES_DE_EMPLEADO_FK">
 <createdBy>solis</createdBy>
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>954D9B45-260D-EDC2-7AF9-CE734D31812A</generatorID>

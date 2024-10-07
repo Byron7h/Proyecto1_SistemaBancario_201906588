@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="357DCE61-9A22-3571-6D13-2C942D271E41" name="AGENCIA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="357DCE61-9A22-3571-6D13-2C942D271E41" name="AGENCIAS">
 <createdBy>solis</createdBy>
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>E7FC6A31-FC0D-DAC2-8D47-97D0CE4714D1</generatorID>
@@ -8,12 +8,14 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="TIPO_AGENCIA_id_tipo_agencia" id="72AB3149-194E-B2FA-3902-533B5F9E0AF4">
+<Column name="TIPOS_DE_AGENCIA_id_tipo_agencia" id="72AB3149-194E-B2FA-3902-533B5F9E0AF4">
 <createdBy>solis</createdBy>
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>EEFF43E4-91C2-0012-6E79-84512AE3A112</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -21,12 +23,14 @@
 <colAssociation fkAssociation="6C224B2A-39F9-9CE9-57D0-6C5D3707DB8C" referredColumn="20117429-0788-89DC-06D6-82A417F84542"/>
 </associations>
 </Column>
-<Column name="MUNICIPIO_id_municipio" id="B6DDB125-9802-AA09-BE91-7E72CA99E363">
+<Column name="MUNICIPIOS_id_municipio" id="B6DDB125-9802-AA09-BE91-7E72CA99E363">
 <createdBy>solis</createdBy>
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>BF6F1A3B-8E99-E196-A001-21F33E9C8537</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -39,7 +43,9 @@
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>9AE5BA36-5614-3C9A-A83E-F13B5AF3DC97</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -48,8 +54,11 @@
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>2216ED95-D29C-115A-1A19-DAA4BD34DA37</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="direccion" id="1451854C-B820-D042-8A32-B640CCBFC169">
@@ -57,8 +66,11 @@
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>7D8E05AC-D780-5511-089F-5617EBEEA1D7</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="codigo_postal" id="A7A9FC23-7C9F-5583-181E-15C8380C2EBE">
@@ -66,8 +78,11 @@
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>271ACF21-1589-FFC4-05F1-0517AB97AEE2</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="telefono" id="88374D60-FBE7-2246-752D-3C7D7058C91F">
@@ -75,8 +90,11 @@
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>A7C5A413-6C46-7805-9078-1607EBBA1854</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -93,7 +111,7 @@
 <colUsage columnID="C136E884-93A9-8615-AD4E-3125540F2E3D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="501E8663-908C-765C-03CF-13385C1F7974" name="AGENCIA_TIPO_AGENCIA_FK">
+<ind_PK_UK id="501E8663-908C-765C-03CF-13385C1F7974" name="AGENCIAS_TIPOS_DE_AGENCIA_FK">
 <createdBy>solis</createdBy>
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>91E20627-B034-F2E6-6FFE-855133D1DF2F</generatorID>
@@ -104,7 +122,7 @@
 <colUsage columnID="72AB3149-194E-B2FA-3902-533B5F9E0AF4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0327A4A4-589F-BF63-AEF3-EF7E48ECFE0C" name="AGENCIA_MUNICIPIO_FK">
+<ind_PK_UK id="0327A4A4-589F-BF63-AEF3-EF7E48ECFE0C" name="AGENCIAS_MUNICIPIOS_FK">
 <createdBy>solis</createdBy>
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>51438D27-C51C-AC11-4B5E-6C12121A4B97</generatorID>

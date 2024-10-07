@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="940ABE6B-9AC5-239A-658B-4B2C996BD4DA" containerWithKeyObject="9A84032F-9A99-FB15-9B8E-CCC78013E594" localFKIndex="5E36672E-A0F1-AB27-7713-8DA7A964299D" name="CUENTA_CLIENTE_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="940ABE6B-9AC5-239A-658B-4B2C996BD4DA" containerWithKeyObject="9A84032F-9A99-FB15-9B8E-CCC78013E594" localFKIndex="5E36672E-A0F1-AB27-7713-8DA7A964299D" name="CUENTAS_CLIENTES_FK">
 <createdBy>solis</createdBy>
 <createdTime>2024-09-20 11:16:45 UTC</createdTime>
 <generatorID>D7C1C337-2064-5EB6-5808-A1C3A421B9A7</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
-<referredTableLongName>CLIENTE</referredTableLongName>
+<referredTableLongName>CLIENTES</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>9202FAB1-29F5-4434-55EF-35B8EC1D0380</referredTableID>
 <keyObject>E254F235-39F2-6766-4430-EAD6B59870D5</keyObject>

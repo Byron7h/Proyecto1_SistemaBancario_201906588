@@ -1,0 +1,180 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D02CDA6-E058-DD7E-FF1B-E302922D6487" name="TRANSACCIONES">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-24 23:46:29 UTC</createdTime>
+<generatorID>83056DD0-1DC7-725B-186A-549837FB2C25</generatorID>
+<ownerDesignName>sistema_bancario</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TIPOS_DE_TRANSACCION_id_tipo_transaccion" id="407C038F-9BE5-A3C1-CCA9-5808877A580C">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-24 23:46:29 UTC</createdTime>
+<generatorID>B52F724B-81F7-AF75-62E1-0DA9A7A69A4E</generatorID>
+<ownerDesignName>sistema_bancario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDC09CA0-27B1-AA33-D6E8-4C5650AE6B18" referredColumn="1D1764EA-7F92-BCD8-F7BF-BCBAFE870BC4"/>
+</associations>
+</Column>
+<Column name="AGENCIAS_id_agencia" id="0B62F62A-D24B-4338-30C5-4B6766AE0031">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-24 23:46:29 UTC</createdTime>
+<generatorID>B429B76E-3472-3BD3-B9ED-D00860F6C87A</generatorID>
+<ownerDesignName>sistema_bancario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="903C5AFC-5E1B-CBDD-9673-84205542A95F" referredColumn="C136E884-93A9-8615-AD4E-3125540F2E3D"/>
+</associations>
+</Column>
+<Column name="id_transaccion" id="00B183F1-5803-EED7-A153-88EF175345A7">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-24 23:46:29 UTC</createdTime>
+<generatorID>8FB97C04-D281-9F65-A2CF-701DC1509262</generatorID>
+<ownerDesignName>sistema_bancario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto" id="95702B5B-BEF2-F236-4295-C251103A238C">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-24 23:46:29 UTC</createdTime>
+<generatorID>373426FD-FC77-86AE-EC6A-7D8454778E11</generatorID>
+<ownerDesignName>sistema_bancario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_hora" id="87B9EBC7-ABA4-079C-F78B-3C4C5FCDB049">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-24 23:46:29 UTC</createdTime>
+<generatorID>E30F6D81-5804-A3D8-3D60-8D134307ADD5</generatorID>
+<ownerDesignName>sistema_bancario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="B1824071-7458-9225-BC6B-404DD138D713">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-24 23:46:29 UTC</createdTime>
+<generatorID>D9920386-1B97-2779-9B20-AF8E5D43581C</generatorID>
+<ownerDesignName>sistema_bancario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUENTAS_cuenta_origen" id="CB8E6E4A-4DDD-4B20-1FA7-72A0A7BA408C">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-24 23:54:30 UTC</createdTime>
+<generatorID>1DEE2AF6-1CA8-306F-D3E8-8B7783227B81</generatorID>
+<ownerDesignName>sistema_bancario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE52BDFF-8193-A4CB-8AA1-C51B4176FF9B" referredColumn="75A30083-4EB9-F515-0877-2474B52E772C"/>
+</associations>
+</Column>
+<Column name="CUENTAS_cuenta_destino" id="9D7EF8BD-BC80-80E2-5836-B126F425A86C">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-25 00:13:28 UTC</createdTime>
+<generatorID>A2960F30-A695-742E-0F2E-3906C3F9FB2D</generatorID>
+<ownerDesignName>sistema_bancario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08320BD7-2568-E7AC-5657-1BD2A6A5D8B4" referredColumn="75A30083-4EB9-F515-0877-2474B52E772C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E0AAEE63-1242-C9C2-32E8-0021190DFBC8" name="TRANSACCION">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-24 23:46:29 UTC</createdTime>
+<generatorID>C1CF729A-05A1-44A2-C4D1-80CAB935B119</generatorID>
+<ownerDesignName>sistema_bancario</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00B183F1-5803-EED7-A153-88EF175345A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5ABBBBC3-7A5B-A2D2-3C13-1F13734A6F78" name="TRANSACCIONES_TIPOS_DE_TRANSACCION_FK">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-24 23:46:29 UTC</createdTime>
+<generatorID>DBB5D1AC-FE6B-2A28-9EE6-5F20629E63CF</generatorID>
+<ownerDesignName>sistema_bancario</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="407C038F-9BE5-A3C1-CCA9-5808877A580C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB0B63EA-7C9E-367D-A19A-46941101E96A" name="TRANSACCIONES_AGENCIAS_FK">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-24 23:46:29 UTC</createdTime>
+<generatorID>B7AB39AE-62A5-30B2-4FD6-DF26F30D8F92</generatorID>
+<ownerDesignName>sistema_bancario</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B62F62A-D24B-4338-30C5-4B6766AE0031"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BDE334D1-163C-802F-84A4-1F7D1C212B5A" name="TRANSACCIONES_CUENTAS_FKv1">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-24 23:46:29 UTC</createdTime>
+<generatorID>FCB493EC-83D1-B3C0-8A57-DD9B40F7B228</generatorID>
+<ownerDesignName>sistema_bancario</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D7EF8BD-BC80-80E2-5836-B126F425A86C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E3E5039-6837-5E10-811F-4E702D52C597" name="TRANSACCIONES_CUENTAS_FK">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-24 23:54:30 UTC</createdTime>
+<generatorID>E484CFC4-23C5-F85C-8CC0-3CDDB07A52C4</generatorID>
+<ownerDesignName>sistema_bancario</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB8E6E4A-4DDD-4B20-1FA7-72A0A7BA408C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

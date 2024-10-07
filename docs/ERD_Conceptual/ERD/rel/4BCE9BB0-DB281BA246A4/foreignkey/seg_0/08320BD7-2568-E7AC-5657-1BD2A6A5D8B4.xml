@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="08320BD7-2568-E7AC-5657-1BD2A6A5D8B4" containerWithKeyObject="0D02CDA6-E058-DD7E-FF1B-E302922D6487" localFKIndex="BDE334D1-163C-802F-84A4-1F7D1C212B5A" name="TRANSACCIONES_CUENTAS_FKv1">
+<createdBy>solis</createdBy>
+<createdTime>2024-09-24 23:46:29 UTC</createdTime>
+<generatorID>FCB493EC-83D1-B3C0-8A57-DD9B40F7B228</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<referredTableLongName>CUENTAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9A84032F-9A99-FB15-9B8E-CCC78013E594</referredTableID>
+<keyObject>4F1AEC7E-6439-BD02-5AE2-618F8C0013A6</keyObject>
+<referredKeyID>4F1AEC7E-6439-BD02-5AE2-618F8C0013A6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>numero_cuenta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
